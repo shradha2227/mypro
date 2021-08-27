@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Timelaps</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Time laps</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="vi.mp4" autoplay muted loop></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Beauty of Time</h2>
+            <h3>Time is unstoppable</h3>
+            <p>Beauty is an admirable blend of qualities that reward pleasure to the senses. The beauty of feelings, thoughts, and expressions is more bizarre, transcendental, and purer. A thing of beauty is a joy forever essay will let you know that anything which has beauty in itself stays forever.  There are several moments of life that people cherish. An essay on a thing of beauty is joy forever tells that a beautiful thing fills the heart with bliss and joy. </p>
+            <a href="#">Admire</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="Twitter"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle=document.querySelector('.toggle')
+        const showcase=document.querySelector('.showcase')
+        menuToggle.addEventListener('click',() =>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        
+        })
+    </script>
+</body>
+</html>
